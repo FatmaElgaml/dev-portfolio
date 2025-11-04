@@ -5,7 +5,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background: #4c8bff;
     color: white;
@@ -13,7 +12,6 @@ header {
     padding: 60px 20px;
 }
 
-/* Navigation */
 nav {
     text-align: center;
     background: #ffffff;
@@ -32,14 +30,12 @@ nav {
             color: #003c9d;
         }
 
-/* Sections */
 section {
     width: 80%;
     margin: auto;
-    padding: 50px 0;
+    padding: 52px 0;
 }
 
-/* Skills List */
 ul {
     list-style: none;
     padding: 0;
@@ -54,7 +50,6 @@ ul {
         border-radius: 5px;
     }
 
-/* Project Cards */
 .project-card {
     background: white;
     padding: 20px;
@@ -63,7 +58,6 @@ ul {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Footer */
 footer {
     background: #222;
     color: white;
