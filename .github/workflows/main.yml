@@ -1,0 +1,18 @@
+name: Deploy site (demo)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print deploy message
+        run: |
+          echo "Deploying website..."
+          # In a real workflow you'd build assets or run tests here
